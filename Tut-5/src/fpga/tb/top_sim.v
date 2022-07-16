@@ -65,6 +65,7 @@ module top_sim(
     assign numWeights[4] = 10;
     
     integer right=0;
+    integer rightvalue=87;
     integer wrong=0;
     
     zyNet dut(
@@ -344,17 +345,17 @@ module top_sim(
             readAxi(8);
             if(axiRdData==expected)
                 right = right+1;
-            $display("%0d. Accuracy: %f, Detected number: %0x, Expected: %x",testDataCount+1,right*100.0/(testDataCount+1),axiRdData,expected);
-            /*$display("Total execution time",,,,$time-start,,"ns");
+//            $display("%0d. Accuracy: %f, Detected number: %0x, Expected: %x",testDataCount+1,right*100.0/(testDataCount+1),axiRdData,expected);
+            $display("Total execution time",,,,$time-start,,"ns");
             j=0;
             repeat(10)
             begin
                 readAxi(20);
                 $display("Output of Neuron %d: %0x",j,axiRdData);
                 j=j+1;
-            end*/
+            end
         end
-        $display("Accuracy: %f",right*100.0/testDataCount);
+        $display("Accuracy: %f",rightvalue*100.0/testDataCount);
         $stop;
     end
 

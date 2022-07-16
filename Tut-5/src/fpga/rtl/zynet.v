@@ -193,7 +193,7 @@ Layer_2 #(.NN(`numNeuronLayer2),.numWeight(`numWeightLayer2),.dataWidth(`dataWid
 	.config_layer_num(config_layer_num),
 	.config_neuron_num(config_neuron_num),
 	.x_valid(data_out_valid_1),
-	.x_in(out_data_1),
+	.x_in(holdData_1),
 	.o_valid(o2_valid),
 	.x_out(x2_out)
 );
@@ -253,7 +253,7 @@ Layer_3 #(.NN(`numNeuronLayer3),.numWeight(`numWeightLayer3),.dataWidth(`dataWid
 	.config_layer_num(config_layer_num),
 	.config_neuron_num(config_neuron_num),
 	.x_valid(data_out_valid_2),
-	.x_in(out_data_2),
+	.x_in(holdData_2),
 	.o_valid(o3_valid),
 	.x_out(x3_out)
 );
@@ -313,7 +313,7 @@ Layer_4 #(.NN(`numNeuronLayer4),.numWeight(`numWeightLayer4),.dataWidth(`dataWid
 	.config_layer_num(config_layer_num),
 	.config_neuron_num(config_neuron_num),
 	.x_valid(data_out_valid_3),
-	.x_in(out_data_3),
+	.x_in(holdData_3),
 	.o_valid(o4_valid),
 	.x_out(x4_out)
 );

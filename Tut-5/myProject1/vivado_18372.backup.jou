@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 18 14:10:04 2022
+# Process ID: 18372
+# Current directory: D:/Final_Year_Prject/Codes/8th Sem/Seies/Tut-5/myProject1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18016 D:\Final_Year_Prject\Codes\8th Sem\Seies\Tut-5\myProject1\myProject1.xpr
+# Log file: D:/Final_Year_Prject/Codes/8th Sem/Seies/Tut-5/myProject1/vivado.log
+# Journal file: D:/Final_Year_Prject/Codes/8th Sem/Seies/Tut-5/myProject1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Final_Year_Prject/Codes/8th Sem/Seies/Tut-5/myProject1/myProject1.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+launch_simulation
+source top_sim.tcl
+run all
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+close_sim

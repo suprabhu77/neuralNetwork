@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Apr  9 12:24:49 2022
+# Process ID: 3408
+# Current directory: D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16640 D:\Final_Year_Prject\Codes\8th Sem\neuralNetwork\Tut-5\myProject1\myProject1.xpr
+# Log file: D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1/vivado.log
+# Journal file: D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1/myProject1.xpr}
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+create_fileset -constrset constrs_2
+file mkdir D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1/myProject1.srcs/constrs_2
+file mkdir D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1/myProject1.srcs/constrs_2
+file mkdir D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1/myProject1.srcs/constrs_2/new
+file mkdir D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1/myProject1.srcs/constrs_2/new
+file mkdir D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1/myProject1.srcs/constrs_2/new
+file mkdir D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1/myProject1.srcs/constrs_2
+file mkdir {D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1/myProject1.srcs/constrs_2/new}
+close [ open {D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1/myProject1.srcs/constrs_2/new/Constraints.xdc} w ]
+add_files -fileset constrs_2 {{D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1/myProject1.srcs/constrs_2/new/Constraints.xdc}}
+add_files -fileset constrs_2 -norecurse {{D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1/myProject1.srcs/constrs_2/new/Constraints.xdc}}
+set_property constrset constrs_2 [get_runs synth_1]
+set_property constrset constrs_2 [get_runs impl_1]
+delete_fileset [ get_filesets constrs_1 ]
+file delete -force {D:/Final_Year_Prject/Codes/8th Sem/neuralNetwork/Tut-5/myProject1/myProject1.srcs/constrs_1}
+launch_simulation
+source top_sim.tcl
+run all
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+launch_simulation
+source top_sim.tcl
+run all
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation
+source top_sim.tcl
+refresh_design
+run all
+run all
+refresh_design
+run all
+run all
+close_sim
+launch_simulation
+source top_sim.tcl
+run all
+close_sim

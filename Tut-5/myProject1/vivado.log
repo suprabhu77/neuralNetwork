@@ -1,0 +1,2834 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jul 12 08:53:29 2022
+# Process ID: 18652
+# Current directory: D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2560 D:\Final_Year_Prject\Codes\8th Sem\parallel\Tut-5\myProject1\myProject1.xpr
+# Log file: D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/vivado.log
+# Journal file: D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:01:01 ; elapsed = 00:00:28 . Memory (MB): peak = 1109.098 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_sim' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_10.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_11.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_12.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_13.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_14.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_15.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_16.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_17.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_18.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_19.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_20.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_21.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_22.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_23.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_24.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_25.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_26.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_27.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_28.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_29.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_3.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_4.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_5.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_6.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_7.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_8.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_9.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_10.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_11.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_12.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_13.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_14.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_15.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_16.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_17.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_18.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_19.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_20.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_21.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_22.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_23.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_24.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_25.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_26.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_27.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_28.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_29.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_3.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_4.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_5.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_6.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_7.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_8.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_9.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_3.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_4.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_5.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_6.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_7.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_8.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_9.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_3.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_4.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_5.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_6.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_7.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_8.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_9.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/sigContent.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_10.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_11.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_12.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_13.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_14.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_15.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_16.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_17.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_18.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_19.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_20.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_21.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_22.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_23.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_24.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_25.mif'
+INFO: [Common 17-14] Message 'SIM-utils 43' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xelab -wto d2612655c2c9451da13773af3d3ea1dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d2612655c2c9451da13773af3d3ea1dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 's_axi_awaddr' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v:74]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 's_axi_awprot' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v:75]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 's_axi_araddr' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v:85]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 's_axi_arprot' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v:86]
+WARNING: [VRFC 10-3091] actual bit length 11 differs from formal bit length 10 for port 'radd' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/neuron.v:172]
+WARNING: [VRFC 10-3091] actual bit length 480 differs from formal bit length 16 for port 'x_in' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/zynet.v:196]
+WARNING: [VRFC 10-3091] actual bit length 480 differs from formal bit length 16 for port 'x_in' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/zynet.v:256]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 16 for port 'x_in' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/zynet.v:316]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'i_valid' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/zynet.v:378]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_sim_behav -key {Behavioral:sim_1:Functional:top_sim} -tclbatch {top_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source top_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Configuration completed                      0 ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1112.813 ; gain = 3.715
+run all
+Total execution time                   9000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 128b
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                  18500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 76a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                  28000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: a36
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 8f2
+Total execution time                  37500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1154
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                  47000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: ec3
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                  56500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: a5d
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 6da
+Total execution time                  66000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 11a5
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                  75500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: f6f
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                  85000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 4b1
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                  94500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 10ed
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 104000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: c6a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 113500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: be8
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 123000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 10d7
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 132500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1180
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 142000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: d96
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 151500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: e5a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 161000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1051
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 170500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: fda
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 180000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: afb
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 189500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 11dd
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 199000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1566
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 208500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 764
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 218000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 42a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 652
+Output of Neuron           9: f6b
+Total execution time                 227500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: a7a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 237000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1515
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 246500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: c88
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 256000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1610
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 265500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: f8a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 275000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: dc2
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 284500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: bca
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 294000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 128e
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 303500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: b7f
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 313000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: e51
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 322500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: e85
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 332000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 982
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 4ce
+Total execution time                 341500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 8fd
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 351000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1076
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 360500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: be2
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 370000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 5e3
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 379500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: b59
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 389000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: cf0
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 398500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 111f
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 408000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1153
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 417500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 959
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: e04
+Total execution time                 427000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: bde
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 436500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: aba
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 446000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: bf8
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 455500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 933
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 465000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1197
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 474500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 10a8
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 484000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: b03
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 493500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: b7e
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 503000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: a2e
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 512500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: ec0
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 522000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 568
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 531500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: bf3
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 541000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: eaf
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 550500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: ab2
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 9de
+Total execution time                 560000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 112c
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 569500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: be1
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 579000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: deb
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 588500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: c34
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 598000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 10b7
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 607500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: e13
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 617000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 10da
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 626500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1290
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 636000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 2a1
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 25d
+Total execution time                 645500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: f8a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 655000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: ba9
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 664500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 9f3
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 674000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 123a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 683500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 8bc
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 693000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 827
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 702500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: d9f
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 712000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: be8
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 721500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: d2e
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 731000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: dee
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 740500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 78b
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 750000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: d23
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 759500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 11a4
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 769000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1581
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 778500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 6e2
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 788000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 783
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 797500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 150d
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 807000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 7a9
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 816500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: fae
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 826000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 100f
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 835500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: e54
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 845000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 93f
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 854500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: b5c
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 145
+Total execution time                 864000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: c90
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 873500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 5a0
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 883000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: d38
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 892500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: c68
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 902000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: bda
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 911500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: e60
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 921000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 101c
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 930500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: ece
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 940000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1080
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 949500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 112b
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Accuracy: 82.000000
+$stop called at time : 950235 ns : File "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v" Line 359
+run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1112.813 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1113.586 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_sim' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_10.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_11.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_12.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_13.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_14.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_15.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_16.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_17.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_18.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_19.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_20.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_21.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_22.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_23.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_24.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_25.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_26.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_27.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_28.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_29.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_3.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_4.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_5.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_6.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_7.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_8.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_9.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_10.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_11.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_12.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_13.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_14.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_15.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_16.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_17.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_18.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_19.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_20.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_21.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_22.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_23.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_24.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_25.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_26.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_27.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_28.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_29.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_3.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_4.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_5.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_6.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_7.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_8.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_9.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_3.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_4.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_5.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_6.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_7.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_8.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_9.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_3.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_4.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_5.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_6.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_7.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_8.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_9.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/sigContent.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_10.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_11.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_12.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_13.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_14.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_15.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_16.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_17.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_18.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_19.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_20.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_21.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_22.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_23.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_24.mif'
+INFO: [SIM-utils-43] Exported 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_25.mif'
+INFO: [Common 17-14] Message 'SIM-utils 43' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Sig_ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sig_ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Weight_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Weight_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/axi_lite_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/maxFinder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maxFinder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/neuron.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/relu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ReLU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/zynet.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zyNet
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_sim
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xelab -wto d2612655c2c9451da13773af3d3ea1dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d2612655c2c9451da13773af3d3ea1dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 's_axi_awaddr' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v:74]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 's_axi_awprot' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v:75]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 's_axi_araddr' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v:85]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 's_axi_arprot' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v:86]
+WARNING: [VRFC 10-3091] actual bit length 11 differs from formal bit length 10 for port 'radd' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/neuron.v:172]
+WARNING: [VRFC 10-3091] actual bit length 480 differs from formal bit length 16 for port 'x_in' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/zynet.v:196]
+WARNING: [VRFC 10-3091] actual bit length 480 differs from formal bit length 16 for port 'x_in' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/zynet.v:256]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 16 for port 'x_in' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/zynet.v:316]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'i_valid' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/zynet.v:378]
+Completed static elaboration
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_1.v" Line 1. Module Layer_1(sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_2.v" Line 1. Module Layer_2(numWeight=30,layerNum=2,sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_3.v" Line 1. Module Layer_3(NN=10,numWeight=30,layerNum=3,sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_4.v" Line 1. Module Layer_4(NN=10,numWeight=10,layerNum=4,sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_1.v" Line 1. Module Layer_1(sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_2.v" Line 1. Module Layer_2(numWeight=30,layerNum=2,sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_3.v" Line 1. Module Layer_3(NN=10,numWeight=30,layerNum=3,sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_4.v" Line 1. Module Layer_4(NN=10,numWeight=10,layerNum=4,sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.axi_lite_wrapper_default
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.ReLU
+Compiling module xil_defaultlib.neuron(layerNo=1,weightIntWidth=...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=1,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=2,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=3,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=4,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,weig...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=5,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=6,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=7,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=8,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=9,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=10,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=11,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=12,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=13,wei...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1113.586 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'elaborate' step aborted
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 1113.586 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xelab -wto d2612655c2c9451da13773af3d3ea1dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d2612655c2c9451da13773af3d3ea1dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 's_axi_awaddr' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v:74]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 's_axi_awprot' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v:75]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 's_axi_araddr' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v:85]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 's_axi_arprot' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v:86]
+WARNING: [VRFC 10-3091] actual bit length 11 differs from formal bit length 10 for port 'radd' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/neuron.v:172]
+WARNING: [VRFC 10-3091] actual bit length 480 differs from formal bit length 16 for port 'x_in' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/zynet.v:196]
+WARNING: [VRFC 10-3091] actual bit length 480 differs from formal bit length 16 for port 'x_in' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/zynet.v:256]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 16 for port 'x_in' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/zynet.v:316]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'i_valid' [D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/zynet.v:378]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_1.v" Line 1. Module Layer_1(sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_2.v" Line 1. Module Layer_2(numWeight=30,layerNum=2,sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_3.v" Line 1. Module Layer_3(NN=10,numWeight=30,layerNum=3,sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_4.v" Line 1. Module Layer_4(NN=10,numWeight=10,layerNum=4,sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_1.v" Line 1. Module Layer_1(sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_2.v" Line 1. Module Layer_2(numWeight=30,layerNum=2,sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_3.v" Line 1. Module Layer_3(NN=10,numWeight=30,layerNum=3,sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/rtl/Layer_4.v" Line 1. Module Layer_4(NN=10,numWeight=10,layerNum=4,sigmoidSize=5) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.axi_lite_wrapper_default
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.ReLU
+Compiling module xil_defaultlib.neuron(layerNo=1,weightIntWidth=...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=1,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=2,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=3,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=4,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,weig...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=5,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=6,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=7,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=8,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=9,weig...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=10,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=11,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=12,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=13,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=14,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=15,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=16,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=17,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=18,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=19,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=20,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=21,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=22,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=23,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=24,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=25,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=26,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=27,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=28,wei...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=784,neur...
+Compiling module xil_defaultlib.neuron(layerNo=1,neuronNo=29,wei...
+Compiling module xil_defaultlib.Layer_1(sigmoidSize=5)
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,numWeight=30,we...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=1,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=2,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=3,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=4,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,layer...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=5,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=6,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=7,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=8,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=9,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=10,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=11,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=12,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=13,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=14,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=15,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=16,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=17,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=18,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=19,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=20,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=21,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=22,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=23,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=24,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=25,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=26,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=27,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=28,num...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=2,neuronNo=29,num...
+Compiling module xil_defaultlib.Layer_2(numWeight=30,layerNum=2,...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,numWeight=30,we...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=1,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=2,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=3,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=4,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,layer...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=5,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=6,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=7,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=8,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=30,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=3,neuronNo=9,numW...
+Compiling module xil_defaultlib.Layer_3(NN=10,numWeight=30,layer...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=10,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=4,numWeight=10,we...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=10,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=4,neuronNo=1,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=10,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=4,neuronNo=2,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=10,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=4,neuronNo=3,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=10,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=4,neuronNo=4,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=10,layer...
+Compiling module xil_defaultlib.neuron(layerNo=4,neuronNo=5,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=10,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=4,neuronNo=6,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=10,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=4,neuronNo=7,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=10,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=4,neuronNo=8,numW...
+Compiling module xil_defaultlib.Weight_Memory(numWeight=10,neuro...
+Compiling module xil_defaultlib.neuron(layerNo=4,neuronNo=9,numW...
+Compiling module xil_defaultlib.Layer_4(NN=10,numWeight=10,layer...
+Compiling module xil_defaultlib.maxFinder
+Compiling module xil_defaultlib.zyNet
+Compiling module xil_defaultlib.top_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_sim_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/Final_Year_Prject/Codes/8th -notrace
+couldn't read file "D:/Final_Year_Prject/Codes/8th": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Tue Jul 12 09:02:23 2022...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:30 . Memory (MB): peak = 1113.586 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '30' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_sim_behav -key {Behavioral:sim_1:Functional:top_sim} -tclbatch {top_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source top_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Configuration completed                      0 ns
+xsim: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1113.586 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:42 . Memory (MB): peak = 1113.586 ; gain = 0.000
+run all
+Total execution time                   9000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 128b
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                  18500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 76a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                  28000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: a36
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 8f2
+Total execution time                  37500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1154
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                  47000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: ec3
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                  56500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: a5d
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 6da
+Total execution time                  66000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 11a5
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                  75500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: f6f
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                  85000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 4b1
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                  94500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 10ed
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 104000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: c6a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 113500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: be8
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 123000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 10d7
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 132500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1180
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 142000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: d96
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 151500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: e5a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 161000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1051
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 170500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: fda
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 180000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: afb
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 189500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 11dd
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 199000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1566
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 208500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 764
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 218000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 42a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 652
+Output of Neuron           9: f6b
+Total execution time                 227500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: a7a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 237000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1515
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 246500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: c88
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 256000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1610
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 265500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: f8a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 275000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: dc2
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 284500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: bca
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 294000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 128e
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 303500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: b7f
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 313000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: e51
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 322500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: e85
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 332000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 982
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 4ce
+Total execution time                 341500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 8fd
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 351000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1076
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 360500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: be2
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 370000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 5e3
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 379500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: b59
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 389000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: cf0
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 398500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 111f
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 408000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1153
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 417500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 959
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: e04
+Total execution time                 427000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: bde
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 436500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: aba
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 446000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: bf8
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 455500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 933
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 465000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1197
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 474500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 10a8
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 484000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: b03
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 493500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: b7e
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 503000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: a2e
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 512500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: ec0
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 522000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 568
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 531500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: bf3
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 541000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: eaf
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 550500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: ab2
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 9de
+Total execution time                 560000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 112c
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 569500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: be1
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 579000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: deb
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 588500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: c34
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 598000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 10b7
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 607500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: e13
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 617000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 10da
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 626500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1290
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 636000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 2a1
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 25d
+Total execution time                 645500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: f8a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 655000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: ba9
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 664500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 9f3
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 674000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 123a
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 683500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 8bc
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 693000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 827
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 702500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: d9f
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 712000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: be8
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 721500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: d2e
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 731000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: dee
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 740500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 78b
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 750000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: d23
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 759500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 11a4
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 769000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1581
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 778500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 6e2
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 788000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 783
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 797500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 150d
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 807000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 7a9
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 816500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: fae
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 826000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 100f
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 835500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: e54
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 845000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 93f
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 854500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: b5c
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 145
+Total execution time                 864000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: c90
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 873500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 5a0
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 883000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: d38
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 892500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: c68
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 902000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: bda
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 911500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: e60
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 921000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 101c
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 930500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: ece
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 940000 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 1080
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Total execution time                 949500 ns
+Output of Neuron           0: 0
+Output of Neuron           1: 0
+Output of Neuron           2: 7fff
+Output of Neuron           3: 0
+Output of Neuron           4: 0
+Output of Neuron           5: 112b
+Output of Neuron           6: 0
+Output of Neuron           7: 0
+Output of Neuron           8: 0
+Output of Neuron           9: 0
+Accuracy: 87.000000
+$stop called at time : 950235 ns : File "D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/src/fpga/tb/top_sim.v" Line 359
+run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1113.586 ; gain = 0.000

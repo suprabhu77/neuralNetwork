@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jul 12 08:53:29 2022
+# Process ID: 18652
+# Current directory: D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2560 D:\Final_Year_Prject\Codes\8th Sem\parallel\Tut-5\myProject1\myProject1.xpr
+# Log file: D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/vivado.log
+# Journal file: D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Final_Year_Prject/Codes/8th Sem/parallel/Tut-5/myProject1/myProject1.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source top_sim.tcl
+run all
+close_sim
+launch_simulation
+launch_simulation
+source top_sim.tcl
+run all

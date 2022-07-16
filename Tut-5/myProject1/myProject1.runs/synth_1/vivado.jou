@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 18 14:12:00 2022
+# Process ID: 10368
+# Current directory: D:/Final_Year_Prject/Codes/8th Sem/Seies/Tut-5/myProject1/myProject1.runs/synth_1
+# Command line: vivado.exe -log zyNet.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zyNet.tcl
+# Log file: D:/Final_Year_Prject/Codes/8th Sem/Seies/Tut-5/myProject1/myProject1.runs/synth_1/zyNet.vds
+# Journal file: D:/Final_Year_Prject/Codes/8th Sem/Seies/Tut-5/myProject1/myProject1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source zyNet.tcl -notrace
